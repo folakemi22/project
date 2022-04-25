@@ -1,0 +1,113 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+ 
+
+.image {
+    background-image: url('banner.jpg');
+    background-position: center center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    height: 100%;
+    width: 100%;
+
+}
+
+.right {
+    height: 45px;
+    display: flex;;
+    justify-content: space-around;
+    align-items: center;
+    margin-top: 50px;
+    margin-left: 50px;
+
+
+}
+
+ul {
+    display: flex;
+    list-style-type: none;
+    align-items: centre;
+}
+
+ul li a {
+    padding: 20px;
+    padding-top: 35px;
+    margin-left: 16px;
+    font-size: 16px;  
+    font-weight: bold;
+    transition: 0.4s ease-in-out;
+    text-decoration: none;
+   
+}
+
+.logo_icon {
+    padding: 20px;
+    font-size: 50px;
+   padding-top: 35px ;
+   text-decoration: underline;
+   color: ;
+}
+
+.para {
+    padding: 20px;
+    font-size: 20px;
+    font-weight: bold;
+    transition: 0.4s ease-in-out;
+    text-decoration: none;
+}
+
+
+.centered {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate( -50%,-50%);
+    font-weight: bold;
+    transition: 0.4s ease-in-out;
+    text-decoration: none;
+    text-align:;
+    margin-top: 350px;
+    margin-left: 100px;
+    color: white;
+    padding: 20px;
+  
+}
+
+.centered h1 {
+    font-size: 55px;
+}
+
+.centered p {
+    font-size: 29px;
+}
+
+.btn{
+    padding: 20px;
+    padding-top: 35px;
+    border-radius: 0px;
+    border:inset;
+    background: none;
+    color: white;
+    cursor: pointer;
+    width: 300px;
+    height: 100px;
+
+}
+
+.par{
+    display: flex;
+    margin-top: 35px;
+    margin-bottom: 25px;
+    margin-left: 250px;
+    padding: 20px;
+    padding-top: 35px;
+    margin-right: 16px;
+    border-radius: 0px;
+    border:inset;
+    background: none;
+   
+}
+

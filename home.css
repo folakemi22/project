@@ -1,0 +1,113 @@
+*{
+    padding: 0%;
+    margin: 0px; 
+}
+
+.parent{
+    width: 90rem;
+    height: 45rem;
+    background: black;
+    position: relative;
+}
+
+.main{
+    width: 80%;
+    height: 90%;
+    background:rgb(107, 65, 161);
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+
+}
+
+.signin{
+    width: 50%;
+    height: 80%;
+    background: white;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+
+}
+
+.form{
+    margin: 20px;
+    margin-top: 35px;
+    padding: 50px;
+    text-align: center;
+    border-radius: 10px;
+}
+
+form {
+    display: flex;
+    flex-direction: column;
+    width: 100%;
+    margin-top: 30px;
+}
+
+h2 {
+    text-align: center;
+    font-family: arial;
+    font-weight: bold;
+}
+
+input {
+    padding: 20px;
+}
+
+.myform input[type="email"] {
+    background: rgb(170, 167, 167);
+    color: black;
+    margin-bottom: 5px;
+}
+
+.myform input[type="password"] {
+    background: rgb(170, 167, 167);
+    color: black;
+    margin-top: 15px;
+    margin-bottom: 10px
+}
+
+.myform input[type="checkbox"] {
+    align-self: center;
+    margin-bottom: 15px;
+}
+
+label {
+    padding: 10px;
+    align-self: flex-start;
+    justify-self: center;
+    
+}
+
+span {
+    margin-left: 5px;
+}
+
+.btn{
+    box-shadow:inset 0px 1px 0px 0px #e9c1fc;
+	background:linear-gradient(to bottom, #cd77ff 5%, #d025fb 100%);
+	background-color:#a737b6;
+	border-radius:11px;
+	border:2px solid #d34fee;
+    margin-bottom: 15px;
+	display:inline-block;
+	cursor:pointer;
+	color:#ffffff;
+	font-family:Arial;
+	font-size:16px;
+	font-weight:bold;
+	padding:8px 18px;
+	text-decoration:none;
+	text-shadow:0px 1px 0px #cc52c2;
+    cursor: pointer;
+}
+.cta:hover {
+	background-color:#e225fb;
+}
+.cta:active {
+	position:relative;
+	top:1px;
+}
